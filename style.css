@@ -1,0 +1,26 @@
+    body {
+        background-image:  url(https://blog.zermatt.ch/wp-content/uploads/2018/03/Zermatt-Matterhorn-Skifahrer-768x432.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    #enterbutton {
+        background-color: white ;
+        color: black;
+        border-radius: 12px;
+    }
+    
+    h1 {
+        color: blue;    
+        font-size: 25px;
+        text-align: center;
+        box-sizing: border-box;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #firstpage {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+
+    }   
