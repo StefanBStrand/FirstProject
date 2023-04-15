@@ -45,6 +45,7 @@
         overflow: hidden;
         opacity: 0.7; 
         width: fit-content;
+        padding-left: 0;
         
     }
 
