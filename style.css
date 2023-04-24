@@ -4,6 +4,23 @@
         background-size: 100%;
     }
 
+    #pageIntroText {
+        width: 45%; 
+
+    }
+
+    #pageIntroTextWrapper {
+        justify-content: center;    
+        display: flex;
+        background-color: rgba(243, 246, 248, 0.350);
+        padding: 1%;
+        color:rgba(0, 0, 0, 1.0);
+        border-radius: 20px;
+
+    }
+
+    /* style introTextWrapper and test out different shit */
+
     #enterbutton {
         background-color: white ;
         color: black;
@@ -24,12 +41,6 @@
         text-align: center;
         box-sizing: border-box;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #firstpage {
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        box-sizing: border-box;
-        padding-bottom: 10px;
     }   
 
     #username {
