@@ -14,3 +14,4 @@ function userName() {
     //Nr.2: funksjonen skal endre tekst i h1 tag "innerHTML på h1 tag skal endres"
     document.getElementById("headerTitle").innerHTML = "Welcome, " + userNameInput;
 }
+
