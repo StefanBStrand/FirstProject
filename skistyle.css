@@ -13,11 +13,36 @@ h1 {
     color: #007029;
 }
 
-#destinationlist {
+.destinationListItems {
+    list-style-type: none;
+    font-size: 2rem;
+
+}
+
+/* The list will not display as inline if i use both id and class selector. As long as I set the selector targeting only
+li elements it will work. Note: all of this just for testing and understanding how stuff works.
+Is my menu and menystyle different? Do i need to have both ul and li selector there?*/
+
+/*#destinationlist {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 0;
-    font-size: 2rem;
+    font-size: 2rem /*
+
+}
+    /* Check why i cant get the vertical arrangement of list elements using list style type - just as a test,
+    it has do to with the fact that ski.html also has menustyle linked to it, 
+    which probably overwrites using the list style type:none
+    value, since the menustyle has display inline as value directly attribudet to ul li. 
+    But i cant get the same result trying to style it using class or id in the menystyle.css file.
+    
+    Edit: Yes, it had to do with index.html and related menustyle which had ul li selectors overwriting anything else
+    since that/those selectors are more specific. Changed that now to using class/id in stylesheet.
+    */
+  
+
+  .destinationListItems {
+    margin-bottom: 10px;
   }
   
