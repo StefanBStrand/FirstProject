@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>
-        My first project
-      </title>
-      <link rel="stylesheet" href="menustyle.css">
-      <link rel="stylesheet" href="indexstyle.css">  
-    </head>
-    <body>
-      <header>
-        <nav>
-          <ul class="topnav">
-            <li class="menuItem"><a class="menuItemLink" href="index.html">Home</a></li>
-            <li class="menuItem"><a class="menuItemLink" href="ski.html">Ski</a></li>
-            <li class="menuItem"><a class="menuItemLink" href="trailmaps.html">Trail Maps</a></li> 
-            <li class="menuItem"><a class="menuItemLink" href="about.html">About</a></li>
-          </ul>   
-        </nav>
-      </header>
+  <head>
+    <title>My first project</title>
+    <link rel="stylesheet" href="menustyle.css" />
+    <link rel="stylesheet" href="indexstyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="topnav">
+          <li class="menuItem">
+            <a class="menuItemLink" href="index.html">Home</a>
+          </li>
+          <li class="menuItem">
+            <a class="menuItemLink" href="ski.html">Ski</a>
+          </li>
+          <li class="menuItem">
+            <a class="menuItemLink" href="trailmaps.html">Trail Maps</a>
+          </li>
+          <li class="menuItem">
+            <a class="menuItemLink" href="about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <main>
-        <h1 id="headerTitle">Welcome</h1>
-        <label for="username">User name:</label>
-        <input type="text" id="username" name="username">
-        <input type="button" value="Enter" id="enterbutton" onclick="userName()">
-        <div id="pageIntroTextWrapper">
-          <p id="pageIntroText">Some text about the site goes here.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, 
-          remaining essentially unchanged. It was popularised in the 1960s
-           with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker 
-            including versions of Lorem Ipsum.
-          </p>
-        </div>
-      </main>
-      <footer>
+    <main>
+      <h1 id="headerTitle">Welcome</h1>
+      <label for="username">User name:</label>
+      <input type="text" id="username" name="username" />
+      <input
+        type="button"
+        value="Enter"
+        id="enterbutton"
+        onclick="userName()"
+      />
+      <div id="pageIntroTextWrapper">
+        <p id="pageIntroText">
+          Some text about the site goes here.Lorem Ipsum is simply dummy text of
+          the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was
+          popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 
-      </footer>        
-    </body>
-
-    <script src="scripts.js"></script> 
-    <script src="menuscripts.js"></script>
-    
+  <script src="scripts.js"></script>
+  <script src="menuscripts.js"></script>
 </html>
 
 <!--Fetch data, weather, lines, opening hours, etc. From open API´s-->

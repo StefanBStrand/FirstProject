@@ -1,56 +1,52 @@
-    body {
-        background-image:  url(https://blog.zermatt.ch/wp-content/uploads/2018/03/Zermatt-Matterhorn-Skifahrer-768x432.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+body {
+  background-image: url(https://blog.zermatt.ch/wp-content/uploads/2018/03/Zermatt-Matterhorn-Skifahrer-768x432.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-    #pageIntroText {
-        width: 45%; 
+#pageIntroText {
+  width: 45%;
+}
 
-    }
+#pageIntroTextWrapper {
+  justify-content: center;
+  display: flex;
+  background-color: rgba(243, 246, 248, 0.25);
+  padding: 1%;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 20px;
+}
 
-    #pageIntroTextWrapper {
-        justify-content: center;    
-        display: flex;
-        background-color: rgba(243, 246, 248, 0.250);
-        padding: 1%;
-        color:rgba(0, 0, 0, 1.0);
-        border-radius: 20px;
+/* style introTextWrapper and test out different stuff */
 
-    }
+#enterbutton {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
 
-    /* style introTextWrapper and test out different stuff */
+#enterbutton:hover {
+  transition-duration: 0.4s;
+  background-color: blanchedalmond;
+  box-shadow: 4px 8px 8px 4px rgba(243, 246, 248, 0.498);
+}
 
-    #enterbutton {
-        background-color: white ;
-        color: black;
-        border-radius: 12px;
-        border: 2px solid black;
-        margin-left: 10px;    
-    }
+h1 {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    #enterbutton:hover {
-        transition-duration: 0.4s;
-        background-color:blanchedalmond; 
-        box-shadow: 4px 8px 8px 4px rgba(243, 246, 248, 0.498);
-    }
-    
-    h1 {
-        color: blue;    
-        font-size: 25px;
-        text-align: center;
-        box-sizing: border-box;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }   
-
-    #username {
-        width: 15%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-    }
-
-    
+#username {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
