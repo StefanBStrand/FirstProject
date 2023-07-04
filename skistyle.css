@@ -36,7 +36,8 @@ Is my menu and menystyle different? Do i need to have both ul and li selector th
     But i cant get the same result trying to style it using class or id in the menystyle.css file.
     
     Edit: Yes, it had to do with index.html and related menustyle which had ul li selectors overwriting anything else
-    since that/those selectors are more specific. Changed that now to using class/id in stylesheet.
+    since that/those selectors are more specific. Changed that now to using class/id in stylesheet. Targeting the Ul element 
+    with display inline will not affect the list appearance, for this I need to target the li element only, not both. 
     */
 
 .destinationListItems {

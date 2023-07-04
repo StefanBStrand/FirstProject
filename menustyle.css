@@ -1,39 +1,40 @@
 /*ul li {
     display: inline;
-} this is the "old code". I could not get the menu working using class or id from index file. 
+} 
+
+this is the "old code". I could not get the menu working using class or id from index file. 
 Thats probably because I thougt that .topnav .menuItemLink would be the same as using the ul li selector,
 but the problem was that the menuItemLink class was on the "a" element, and not the "li" element */
 
 .menuItem {
-    display: inline; 
-} 
-/* Apparently i dont need to target the Ul element in order to get the list do display inline. WHy did i think i had to? */
+  display: inline;
+}
+/* Apparently i dont need to target the Ul element in order to get the list do display inline. Asking chatGPT says targeting 
+inline on the ul selector will ...*/
 
 .topnav {
-    background-color: #f7f7f7;
-    overflow: hidden;
-    opacity: 0.7; 
-    width: fit-content;
-    padding-left: 0;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  opacity: 0.7;
+  width: fit-content;
+  padding-left: 0;
 }
 
 .menuItemLink {
-    float: left;
-    color: #007029;
-    text-align: center;
-    font-size: 20px;
-    padding: 14px 20px;
-    text-decoration: none;
-
+  float: left;
+  color: #007029;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
 .menuItemLink:hover {
-    background-color: #dddddd;
-    color: black;
+  background-color: #dddddd;
+  color: black;
 }
 
 .menuItemLinkActive {
-    background-color: #04AA6D;
-    color: white;
-    
+  background-color: #04aa6d;
+  color: white;
 }
